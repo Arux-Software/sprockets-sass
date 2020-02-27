@@ -21,10 +21,6 @@ Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
 
   s.required_ruby_version = '>= 2.0'
-  s.metadata = {
-    'source_url' => s.homepage,
-    'issue_tracker' => "#{s.homepage}/issues"
-  }
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
